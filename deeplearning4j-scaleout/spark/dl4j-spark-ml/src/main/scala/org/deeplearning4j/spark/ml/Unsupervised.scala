@@ -21,8 +21,6 @@ import org.apache.spark.ml.param._
 import org.deeplearning4j.spark.ml.param.shared._
 import org.deeplearning4j.spark.ml.util.SchemaUtils
 import org.apache.spark.ml.{Estimator, Model}
-import org.apache.spark.mllib.linalg.VectorUDT
-import org.apache.spark.mllib.linalg.VectorUDT
 import org.apache.spark.sql.DataFrame
 import org.apache.spark.sql.types.{DataType, StructType}
 import org.deeplearning4j.spark.sql.types.VectorUDT
