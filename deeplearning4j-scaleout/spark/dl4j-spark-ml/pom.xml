@@ -15,11 +15,11 @@
   -->
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<parent>
-		<groupId>org.deeplearning4j</groupId>
-		<artifactId>spark</artifactId>
-		<version>0.4-rc3.8</version>
-	</parent>
+    <parent>
+        <groupId>org.deeplearning4j</groupId>
+        <artifactId>spark</artifactId>
+        <version>0.4-rc3.8</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>dl4j-spark-ml</artifactId>
@@ -30,8 +30,8 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <scala.version>2.11.5</scala.version>
-        <scala.binary.version>2.11</scala.binary.version>
+        <scala.version>2.10.4</scala.version>
+        <scala.binary.version>2.10</scala.binary.version>
         <spark.version>1.4.0</spark.version>
     </properties>
 
@@ -94,7 +94,7 @@
             </plugin>
         </plugins>
     </build>
-  
+
     <dependencies>
         <dependency>
             <groupId>org.scala-lang</groupId>
@@ -137,8 +137,8 @@
         </dependency>
         <dependency>
             <groupId>org.scalatest</groupId>
-            <artifactId>scalatest_2.11</artifactId>
-            <version>2.2.6</version>
+            <artifactId>scalatest_2.10</artifactId>
+            <version>2.2.1</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
