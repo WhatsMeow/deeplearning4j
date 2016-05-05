@@ -16,7 +16,8 @@
   ~  */
   -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <artifactId>deeplearning4j-core</artifactId>
     <parent>
@@ -33,7 +34,8 @@
                     <version>2.18.1</version>
                     <configuration>
                         <additionalClasspathElements>
-                            <additionalClasspathElement>../dl4j-test-resources/src/main/resources</additionalClasspathElement>
+                            <additionalClasspathElement>../dl4j-test-resources/src/main/resources
+                            </additionalClasspathElement>
                         </additionalClasspathElements>
                         <argLine>-Ddtype=double</argLine>
                     </configuration>
@@ -111,8 +113,8 @@
             <artifactId>canova-nd4j-image</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
         </dependency>
 
         <dependency>
